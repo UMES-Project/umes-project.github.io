@@ -107,6 +107,9 @@ main .block .clients, main .block .libraries {
   justify-content: center;
   gap: 10px;
 }
+main .block .clients.table, main .block .libraries.table {
+  justify-content: start;
+}
 main .block .clients .client, main .block .clients .library, main .block .libraries .client, main .block .libraries .library {
   display: flex;
   flex-direction: column;
@@ -122,4 +125,25 @@ main .block .clients .client, main .block .clients .library, main .block .librar
 }
 main .block .clients .client img, main .block .clients .library img, main .block .libraries .client img, main .block .libraries .library img {
   height: 40px;
+}
+main .block .clients .row-client, main .block .libraries .row-client {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 10px;
+  padding-inline: 20px;
+  border-bottom: 1px solid #e3e3e3;
+  background-color: #fbfbfb;
+  color: #000;
+  width: 100%;
+}
+main .block .clients .row-client .desc, main .block .clients .row-client .links, main .block .libraries .row-client .desc, main .block .libraries .row-client .links {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  gap: 10px;
+}
+main .block .clients .row-client img, main .block .libraries .row-client img {
+  height: 30px;
 }/*# sourceMappingURL=index.css.map */
