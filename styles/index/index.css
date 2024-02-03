@@ -1,0 +1,82 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  border-bottom: 1px solid #e3e3e3;
+  padding-inline: 20px;
+}
+nav .name {
+  height: 100%;
+}
+nav .name a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+nav .name a img {
+  height: 80%;
+}
+nav .links {
+  display: flex;
+  gap: 20px;
+}
+nav .links a {
+  color: #000;
+}
+
+main {
+  padding: 20px;
+}
+main .block {
+  border-bottom: 1px solid #e3e3e3;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .block .umes-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #e3e3e3;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+main .block .buttons {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  gap: 10px;
+}
+main .block .buttons a {
+  padding: 10px;
+  padding-inline: 20px;
+  border-radius: 5px;
+  border: 1px solid #e3e3e3;
+  color: #000;
+}
+main .block .buttons a:nth-child(1) {
+  background-color: #29af7e;
+  border-color: #29af7e;
+  color: #fff;
+}/*# sourceMappingURL=index.css.map */
